@@ -8,5 +8,8 @@ Module ModGlobalVariable
     Public conLaundry As New MySqlConnection
     Public strConnection As String
     Public command As New MySqlCommand
-
+    Public sqlLaundryAdapter As New MySqlDataAdapter
+    Public datLaundry As New DataTable
+    Public row As Integer
+    Public rid As Integer
 End Module

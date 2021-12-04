@@ -38,6 +38,7 @@ Partial Class frmCustomer
         Me.txtAddress = New System.Windows.Forms.TextBox()
         Me.btnSave = New System.Windows.Forms.Button()
         Me.btnClose = New System.Windows.Forms.Button()
+        Me.btnUpdate = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -61,7 +62,7 @@ Partial Class frmCustomer
         Me.txtFullname.Location = New System.Drawing.Point(159, 82)
         Me.txtFullname.Name = "txtFullname"
         Me.txtFullname.Size = New System.Drawing.Size(237, 20)
-        Me.txtFullname.TabIndex = 3
+        Me.txtFullname.TabIndex = 2
         '
         'Label2
         '
@@ -104,7 +105,7 @@ Partial Class frmCustomer
         Me.txtContact.Location = New System.Drawing.Point(159, 281)
         Me.txtContact.Name = "txtContact"
         Me.txtContact.Size = New System.Drawing.Size(237, 20)
-        Me.txtContact.TabIndex = 11
+        Me.txtContact.TabIndex = 6
         '
         'Label6
         '
@@ -120,7 +121,7 @@ Partial Class frmCustomer
         Me.txtEmail.Location = New System.Drawing.Point(159, 321)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(237, 20)
-        Me.txtEmail.TabIndex = 13
+        Me.txtEmail.TabIndex = 7
         '
         'Label7
         '
@@ -137,7 +138,7 @@ Partial Class frmCustomer
         Me.dpBirth.Location = New System.Drawing.Point(159, 125)
         Me.dpBirth.Name = "dpBirth"
         Me.dpBirth.Size = New System.Drawing.Size(237, 20)
-        Me.dpBirth.TabIndex = 14
+        Me.dpBirth.TabIndex = 3
         '
         'cmbGender
         '
@@ -146,7 +147,7 @@ Partial Class frmCustomer
         Me.cmbGender.Location = New System.Drawing.Point(159, 165)
         Me.cmbGender.Name = "cmbGender"
         Me.cmbGender.Size = New System.Drawing.Size(237, 21)
-        Me.cmbGender.TabIndex = 15
+        Me.cmbGender.TabIndex = 4
         '
         'txtAddress
         '
@@ -154,31 +155,41 @@ Partial Class frmCustomer
         Me.txtAddress.Multiline = True
         Me.txtAddress.Name = "txtAddress"
         Me.txtAddress.Size = New System.Drawing.Size(237, 62)
-        Me.txtAddress.TabIndex = 16
+        Me.txtAddress.TabIndex = 5
         '
         'btnSave
         '
         Me.btnSave.Location = New System.Drawing.Point(66, 384)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 17
+        Me.btnSave.TabIndex = 8
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
         'btnClose
         '
-        Me.btnClose.Location = New System.Drawing.Point(167, 384)
+        Me.btnClose.Location = New System.Drawing.Point(254, 384)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(75, 23)
-        Me.btnClose.TabIndex = 18
+        Me.btnClose.TabIndex = 9
         Me.btnClose.Text = "Close"
         Me.btnClose.UseVisualStyleBackColor = True
+        '
+        'btnUpdate
+        '
+        Me.btnUpdate.Location = New System.Drawing.Point(159, 384)
+        Me.btnUpdate.Name = "btnUpdate"
+        Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
+        Me.btnUpdate.TabIndex = 13
+        Me.btnUpdate.Text = "Update"
+        Me.btnUpdate.UseVisualStyleBackColor = True
         '
         'frmCustomer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(804, 460)
+        Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.txtAddress)
@@ -219,4 +230,5 @@ Partial Class frmCustomer
     Friend WithEvents txtAddress As TextBox
     Friend WithEvents btnSave As Button
     Friend WithEvents btnClose As Button
+    Friend WithEvents btnUpdate As Button
 End Class

@@ -97,6 +97,12 @@
       <DependentUpon>frmCustomer.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmDisplayCustomer.Designer.vb">
+      <DependentUpon>frmDisplayCustomer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDisplayCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ModGlobalProcedure.vb" />
     <Compile Include="ModGlobalVariable.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -118,6 +124,9 @@
   <ItemGroup>
     <EmbeddedResource Include="frmCustomer.resx">
       <DependentUpon>frmCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDisplayCustomer.resx">
+      <DependentUpon>frmDisplayCustomer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
