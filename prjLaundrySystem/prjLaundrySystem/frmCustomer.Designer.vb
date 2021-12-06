@@ -188,7 +188,7 @@ Partial Class frmCustomer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(804, 460)
+        Me.ClientSize = New System.Drawing.Size(556, 460)
         Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.btnSave)

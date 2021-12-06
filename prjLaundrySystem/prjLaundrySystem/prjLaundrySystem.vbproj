@@ -103,6 +103,30 @@
     <Compile Include="frmDisplayCustomer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmDisplayGarments.Designer.vb">
+      <DependentUpon>frmDisplayGarments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDisplayGarments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDisplayService.Designer.vb">
+      <DependentUpon>frmDisplayService.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDisplayService.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGarments.Designer.vb">
+      <DependentUpon>frmGarments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGarments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmService.Designer.vb">
+      <DependentUpon>frmService.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmService.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ModGlobalProcedure.vb" />
     <Compile Include="ModGlobalVariable.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -127,6 +151,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmDisplayCustomer.resx">
       <DependentUpon>frmDisplayCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDisplayGarments.resx">
+      <DependentUpon>frmDisplayGarments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDisplayService.resx">
+      <DependentUpon>frmDisplayService.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGarments.resx">
+      <DependentUpon>frmGarments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmService.resx">
+      <DependentUpon>frmService.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

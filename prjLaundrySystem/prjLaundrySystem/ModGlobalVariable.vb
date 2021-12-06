@@ -12,4 +12,6 @@ Module ModGlobalVariable
     Public datLaundry As New DataTable
     Public row As Integer
     Public rid As Integer
+    Public gid As Integer
+    Public sid As Integer
 End Module
